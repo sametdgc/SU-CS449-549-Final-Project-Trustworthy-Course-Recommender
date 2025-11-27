@@ -1,0 +1,206 @@
+{
+  "CS 201": {
+    "difficulty": "Medium",
+    "workload": 12,
+    "tags": ["C++", "Fundamentals", "Required"],
+    "socialReason": "Students exploring a Computer Science minor often started here, noting that the Recitation sessions provided critical support for those with no prior coding background."
+  },
+  "CS 204": {
+    "difficulty": "Hard",
+    "workload": 15,
+    "tags": ["Pointers", "Memory Management", "Advanced C++"],
+    "socialReason": "Students who enjoyed the logical challenges in CS 201 chose this to master Memory Management, viewing it as the essential bridge to Systems Programming."
+  },
+  "CS 300": {
+    "difficulty": "Hard",
+    "workload": 14,
+    "tags": ["Algorithms", "Data Structures", "Interview Prep"],
+    "socialReason": "Students with an interest in Software Engineering internships prioritized this course, as peers universally cited it as the primary requirement for passing Technical Interviews."
+  },
+  "CS 301": {
+    "difficulty": "Hard",
+    "workload": 12,
+    "tags": ["Theory", "Optimization", "Math"],
+    "socialReason": "Students who excelled in CS 300 and enjoy Math often chose this to deepen their understanding of Optimization, finding it highly relevant for Competitive Programming."
+  },
+  "CS 302": {
+    "difficulty": "Medium",
+    "workload": 8,
+    "tags": ["Automata", "Theory", "Grammars"],
+    "socialReason": "Students interested in Compiler Design or Abstract Math typically selected this course, appreciating the lower workload compared to other 300-level core courses."
+  },
+  "CS 303": {
+    "difficulty": "Medium",
+    "workload": 10,
+    "tags": ["Hardware", "Circuits", "Verilog"],
+    "socialReason": "Students curious about Hardware/Software Integration chose this course to learn Logic Design, noting that the labs provide tangible insight into how processors work."
+  },
+  "CS 305": {
+    "difficulty": "Medium",
+    "workload": 9,
+    "tags": ["Parsers", "Interpreters", "Syntax"],
+    "socialReason": "Students who enjoyed the theoretical aspects of CS 302 often took this course next, finding it a satisfying practical application of Formal Grammars."
+  },
+  "CS 306": {
+    "difficulty": "Medium",
+    "workload": 10,
+    "tags": ["SQL", "Databases", "Project"],
+    "socialReason": "Students focused on building a Full-Stack Portfolio chose this course to learn SQL, citing the semester project as a major asset for their CVs."
+  },
+  "CS 307": {
+    "difficulty": "Hard",
+    "workload": 14,
+    "tags": ["Linux", "Concurrency", "Systems"],
+    "socialReason": "Students interested in Backend Architecture who enjoyed CS 204 selected this to learn Concurrency, though they advise taking it during a lighter semester due to the projects."
+  },
+  "CS 308": {
+    "difficulty": "Medium",
+    "workload": 12,
+    "tags": ["Teamwork", "Agile", "UML"],
+    "socialReason": "Students looking for Real-World Dev Experience chose this course to practice Agile Methodologies, noting that the group project mirrors actual industry workflows."
+  },
+  "CS 310": {
+    "difficulty": "Medium",
+    "workload": 10,
+    "tags": ["Mobile", "Android", "UI/UX"],
+    "socialReason": "Students interested in Entrepreneurship often chose this to build their first MVP App, appreciating that the project-heavy workload allows for creative freedom."
+  },
+  "CS 395": {
+    "difficulty": "Easy",
+    "workload": 5,
+    "tags": ["Career", "Internship", "Report"],
+    "socialReason": "Students returning from Summer Internships took this to fulfill their requirement, noting the workload is strictly administrative and pairs well with a heavy course load."
+  },
+  "CS 401": {
+    "difficulty": "Hard",
+    "workload": 12,
+    "tags": ["Hardware", "Processors", "Assembly"],
+    "socialReason": "Students who enjoyed CS 303 often chose this to dive deeper into Processor Architecture, finding it essential for careers in Embedded Systems."
+  },
+  "CS 403": {
+    "difficulty": "Hard",
+    "workload": 13,
+    "tags": ["Distributed Systems", "Cloud", "Consensus"],
+    "socialReason": "Students aspiring to be Cloud Architects usually took this after CS 307, citing it as crucial for understanding large-scale systems like Kubernetes."
+  },
+  "CS 404": {
+    "difficulty": "Medium",
+    "workload": 9,
+    "tags": ["AI", "Search", "Agents"],
+    "socialReason": "Students interested in Intelligent Systems chose this as a survey course before CS 412, finding it a manageable introduction to search algorithms and agents."
+  },
+  "CS 405": {
+    "difficulty": "Hard",
+    "workload": 14,
+    "tags": ["OpenGL", "Rendering", "Linear Algebra"],
+    "socialReason": "Students with a strong Linear Algebra background and an interest in Game Development selected this, finding the visual output of the projects highly rewarding."
+  },
+  "CS 406": {
+    "difficulty": "Hard",
+    "workload": 12,
+    "tags": ["HPC", "CUDA", "MPI"],
+    "socialReason": "Students interested in Scientific Computing who enjoyed CS 307 chose this to master Parallelization, finding the speed-up optimization challenges very satisfying."
+  },
+  "CS 407": {
+    "difficulty": "Hard",
+    "workload": 10,
+    "tags": ["Complexity", "Computability", "Math"],
+    "socialReason": "Students pursuing a Ph.D. track or who loved CS 302 often selected this, as it delves into the purely Mathematical Foundations of computing."
+  },
+  "CS 408": {
+    "difficulty": "Medium",
+    "workload": 10,
+    "tags": ["TCP/IP", "Internet", "Packets"],
+    "socialReason": "Students aiming for DevOps or Network Engineering roles prioritized this course, citing the practical lab sessions as directly applicable to industry tasks."
+  },
+  "CS 411": {
+    "difficulty": "Hard",
+    "workload": 12,
+    "tags": ["Security", "Encryption", "Number Theory"],
+    "socialReason": "Students with an interest in Cybersecurity who are comfortable with Number Theory chose this to understand the mathematical backbone of modern encryption."
+  },
+  "CS 412": {
+    "difficulty": "Hard",
+    "workload": 15,
+    "tags": ["Data Science", "Python", "Models"],
+    "socialReason": "Students declared as Data Science tracks almost universally took this, advising peers to review Probability beforehand to handle the rigorous modeling workload."
+  },
+  "CS 414": {
+    "difficulty": "Medium",
+    "workload": 9,
+    "tags": ["Graphs", "Social Networks", "Data"],
+    "socialReason": "Students interested in Social Media Analytics found this course relatable, noting that analyzing real-world graph data made the theory easier to grasp."
+  },
+  "CS 415": {
+    "difficulty": "Hard",
+    "workload": 16,
+    "tags": ["Neural Networks", "PyTorch", "Vision"],
+    "socialReason": "Students who performed well in CS 412 typically continued here to learn Deep Learning, though they warn the project workload significantly increases."
+  },
+  "CS 419": {
+    "difficulty": "Hard",
+    "workload": 13,
+    "tags": ["Computer Vision", "Image Processing", "Signals"],
+    "socialReason": "Students interested in Robotics or AI often paired this with CS 412, finding the tangible results of image processing projects highly motivating."
+  },
+  "CS 432": {
+    "difficulty": "Medium",
+    "workload": 10,
+    "tags": ["Security", "Network Defense", "Attacks"],
+    "socialReason": "Students interested in Ethical Hacking preferred this over CS 411 due to its focus on practical defense mechanisms rather than theoretical math."
+  },
+  "CS 435": {
+    "difficulty": "Hard",
+    "workload": 11,
+    "tags": ["Quantum", "Physics", "Qubits"],
+    "socialReason": "Students curious about Next-Gen Computing chose this to 'future-proof' their skills, though they note it requires adapting to a completely new logic paradigm."
+  },
+  "CS 436": {
+    "difficulty": "Medium",
+    "workload": 10,
+    "tags": ["Cloud", "Virtualization", "Services"],
+    "socialReason": "Students aiming for Software Architect roles took this to learn Virtualization, finding the concepts directly applicable to modern deployment stacks."
+  },
+  "CS 437": {
+    "difficulty": "Medium",
+    "workload": 11,
+    "tags": ["Cybersecurity", "Applied Security", "Defense"],
+    "socialReason": "Students looking for Hands-on Security experience chose this course, appreciating the workshop-style approach to analyzing real-world vulnerabilities."
+  },
+  "CS 438": {
+    "difficulty": "Medium",
+    "workload": 10,
+    "tags": ["Blockchain", "Smart Contracts", "Web3"],
+    "socialReason": "Students interested in Fintech often selected this to understand Smart Contracts, noting the workload is manageable compared to other systems electives."
+  },
+  "CS 440": {
+    "difficulty": "Hard",
+    "workload": 12,
+    "tags": ["Quantum Algorithms", "Advanced Theory", "Physics"],
+    "socialReason": "Students who aced CS 435 and enjoy Theoretical Physics concepts continued with this course to explore complex quantum algorithms."
+  },
+  "CS 445": {
+    "difficulty": "Medium",
+    "workload": 12,
+    "tags": ["NLP", "Linguistics", "Text Mining"],
+    "socialReason": "With the rise of LLMs, students interested in AI flocked to this course, finding the projects highly relevant to current tech trends like ChatGPT."
+  },
+  "CS 449": {
+    "difficulty": "Medium",
+    "workload": 10,
+    "tags": ["Design", "User Research", "Frontend"],
+    "socialReason": "Students looking to transition into Product Management or UX Design chose this, valuing the focus on user research over pure coding."
+  },
+  "CS 455": {
+    "difficulty": "Hard",
+    "workload": 14,
+    "tags": ["LLM", "Generative AI", "Transformers"],
+    "socialReason": "Students with strong Python skills who want to work in GenAI rated this course highly for industry relevance, despite the demanding reading list."
+  },
+  "CS 460": {
+    "difficulty": "Medium",
+    "workload": 9,
+    "tags": ["Testing", "Quality Assurance", "Analysis"],
+    "socialReason": "Students preparing for Junior Developer roles took this to improve their Code Quality habits, considering it a high-ROI elective for their first job."
+  }
+}

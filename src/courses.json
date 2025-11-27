@@ -1,0 +1,884 @@
+[
+  {
+    "crn": "10190",
+    "code": "CS 201",
+    "section": "A",
+    "name": "Programming Fundamentals",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "12:40 pm - 1:30 pm",
+        "days": "M",
+        "location": "Sabancı Business School G071",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Saima Gül (P)"
+      },
+      {
+        "type": "Class",
+        "time": "11:40 am - 1:30 pm",
+        "days": "W",
+        "location": "Fac. of Engin. and Nat. Sci. G077",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Saima Gül (P)"
+      }
+    ]
+  },
+  {
+    "crn": "10106",
+    "code": "CS 301",
+    "section": "0",
+    "name": "Algorithms",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "4:40 pm - 5:30 pm",
+        "days": "W",
+        "location": "Sabancı Business School G071",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Esra Erdem (P)"
+      },
+      {
+        "type": "Class",
+        "time": "2:40 pm - 4:30 pm",
+        "days": "F",
+        "location": "Fac. of Engin. and Nat. Sci. G077",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Esra Erdem (P)"
+      }
+    ]
+  },
+  {
+    "crn": "10141",
+    "code": "CS 306",
+    "section": "0",
+    "name": "Database Systems",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "4:40 pm - 5:30 pm",
+        "days": "R",
+        "location": "Sabancı Business School G071",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Yücel Saygın (P)"
+      },
+      {
+        "type": "Class",
+        "time": "12:40 pm - 2:30 pm",
+        "days": "F",
+        "location": "Fac. of Engin. and Nat. Sci. G077",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Yücel Saygın (P)"
+      }
+    ]
+  },
+  {
+    "crn": "10135",
+    "code": "CS 307",
+    "section": "0",
+    "name": "Operating Systems",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "10:40 am - 11:30 am",
+        "days": "W",
+        "location": "Fac. of Engin. and Nat. Sci. G077",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Süha Orhun Mutluergil (P)"
+      },
+      {
+        "type": "Class",
+        "time": "8:40 am - 10:30 am",
+        "days": "R",
+        "location": "Sabancı Business School G071",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Süha Orhun Mutluergil (P)"
+      }
+    ]
+  },
+  {
+    "crn": "10150",
+    "code": "CS 308",
+    "section": "0",
+    "name": "Software Engineering",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "10:40 am - 12:30 pm",
+        "days": "M",
+        "location": "University Center G030",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Mohammad Yusaf Azimi (P)"
+      },
+      {
+        "type": "Class",
+        "time": "9:40 am - 10:30 am",
+        "days": "F",
+        "location": "University Center G030",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Mohammad Yusaf Azimi (P)"
+      }
+    ]
+  },
+  {
+    "crn": "10160",
+    "code": "CS 310",
+    "section": "0",
+    "name": "Mobile Application Development",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "2:40 pm - 4:30 pm",
+        "days": "M",
+        "location": "Sabancı Business School G071",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Saima Gül (P)"
+      },
+      {
+        "type": "Class",
+        "time": "8:40 am - 9:30 am",
+        "days": "T",
+        "location": "Fac. of Engin. and Nat. Sci. G077",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Saima Gül (P)"
+      }
+    ]
+  },
+  {
+    "crn": "13446",
+    "code": "CS 395",
+    "section": "0",
+    "name": "Internship Project",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "",
+        "days": "",
+        "location": "",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "Internship",
+        "instructors": "Öznur Taştan Okan (P)"
+      }
+    ]
+  },
+  {
+    "crn": "12451",
+    "code": "CS 401",
+    "section": "0",
+    "name": "Computer Architectures",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "11:40 am - 12:30 pm",
+        "days": "W",
+        "location": "Fac.of Arts and Social Sci. G018",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Özcan Öztürk (P)"
+      },
+      {
+        "type": "Class",
+        "time": "10:40 am - 12:30 pm",
+        "days": "R",
+        "location": "Fac.of Arts and Social Sci. G018",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Özcan Öztürk (P)"
+      }
+    ]
+  },
+  {
+    "crn": "12453",
+    "code": "CS 404",
+    "section": "0",
+    "name": "Artificial Intelligence",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "11:40 am - 12:30 pm",
+        "days": "T",
+        "location": "Sabancı Business School G071",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Ayşe Berrin Yanıkoğlu (P)"
+      },
+      {
+        "type": "Class",
+        "time": "3:40 pm - 5:30 pm",
+        "days": "F",
+        "location": "Sabancı Business School G071",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Ayşe Berrin Yanıkoğlu (P)"
+      }
+    ]
+  },
+  {
+    "crn": "10172",
+    "code": "CS 405",
+    "section": "0",
+    "name": "Computer Graphics",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "8:40 am - 9:30 am",
+        "days": "M",
+        "location": "Fac.of Arts and Social Sci. G062",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Selim Saffet Balcısoy (P)"
+      },
+      {
+        "type": "Class",
+        "time": "12:40 pm - 2:30 pm",
+        "days": "R",
+        "location": "Fac.of Arts and Social Sci. G062",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Selim Saffet Balcısoy (P)"
+      }
+    ]
+  },
+  {
+    "crn": "12454",
+    "code": "CS 406",
+    "section": "0",
+    "name": "Parallel Computing",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "2:40 pm - 4:30 pm",
+        "days": "W",
+        "location": "Fac.of Arts and Social Sci. 1010",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Kamer Kaya (P)"
+      },
+      {
+        "type": "Class",
+        "time": "9:40 am - 10:30 am",
+        "days": "F",
+        "location": "Fac.of Arts and Social Sci. 1010",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Kamer Kaya (P)"
+      }
+    ]
+  },
+  {
+    "crn": "10175",
+    "code": "CS 408",
+    "section": "0",
+    "name": "Computer Networks",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "12:40 pm - 2:30 pm",
+        "days": "M",
+        "location": "Fac.of Arts and Social Sci. G062",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Albert Levi (P)"
+      },
+      {
+        "type": "Class",
+        "time": "2:40 pm - 3:30 pm",
+        "days": "T",
+        "location": "Fac.of Arts and Social Sci. G062",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Albert Levi (P)"
+      }
+    ]
+  },
+  {
+    "crn": "10182",
+    "code": "CS 411",
+    "section": "0",
+    "name": "Cryptography",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "6:40 pm - 7:30 pm",
+        "days": "W",
+        "location": "Sabancı Business School G071",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Erkay Savaş (P)"
+      },
+      {
+        "type": "Class",
+        "time": "5:40 pm - 7:30 pm",
+        "days": "R",
+        "location": "Sabancı Business School G071",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Erkay Savaş (P)"
+      }
+    ]
+  },
+  {
+    "crn": "12937",
+    "code": "CS 415",
+    "section": "0",
+    "name": "Introduction to deep learning",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "11:40 am - 12:30 pm",
+        "days": "M",
+        "location": "Fac.of Arts and Social Sci. G062",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Erchan Aptoula (P)"
+      },
+      {
+        "type": "Class",
+        "time": "9:40 am - 11:30 am",
+        "days": "T",
+        "location": "Fac.of Arts and Social Sci. G062",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Erchan Aptoula (P)"
+      }
+    ]
+  },
+  {
+    "crn": "12157",
+    "code": "CS 419",
+    "section": "0",
+    "name": "Digital Image and Video Analysis",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "8:40 am - 9:30 am",
+        "days": "W",
+        "location": "Fac. of Engin. and Nat. Sci. L045",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Erchan Aptoula (P)"
+      },
+      {
+        "type": "Class",
+        "time": "8:40 am - 10:30 am",
+        "days": "R",
+        "location": "Fac.of Arts and Social Sci. G062",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Erchan Aptoula (P)"
+      }
+    ]
+  },
+  {
+    "crn": "13123",
+    "code": "CS 435",
+    "section": "0",
+    "name": "Quantum Programming I",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "12:40 pm - 3:30 pm",
+        "days": "F",
+        "location": "Fac.of Arts and Social Sci. G052",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Özlem Salehi Köken (P)"
+      }
+    ]
+  },
+  {
+    "crn": "12027",
+    "code": "CS 437",
+    "section": "0",
+    "name": "Cybersecurity Practices and Applications",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "2:40 pm - 3:30 pm",
+        "days": "T",
+        "location": "University Center G030",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Orçun Çetin (P)"
+      },
+      {
+        "type": "Class",
+        "time": "3:40 pm - 5:30 pm",
+        "days": "R",
+        "location": "Fac.of Arts and Social Sci. 1010",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Orçun Çetin (P)"
+      }
+    ]
+  },
+  {
+    "crn": "12455",
+    "code": "CS 445",
+    "section": "0",
+    "name": "Natural Language Processing",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "9:40 am - 11:30 am",
+        "days": "M",
+        "location": "Fac.of Arts and Social Sci. G062",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Dilara Keküllüoğlu (P)"
+      },
+      {
+        "type": "Class",
+        "time": "8:40 am - 9:30 am",
+        "days": "F",
+        "location": "Fac.of Arts and Social Sci. G062",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Dilara Keküllüoğlu (P)"
+      }
+    ]
+  },
+  {
+    "crn": "10194",
+    "code": "CS 449",
+    "section": "0",
+    "name": "Human Computer Interaction",
+    "term": "Fall",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "12:40 pm - 2:30 pm",
+        "days": "T",
+        "location": "Fac. of Engin. and Nat. Sci. L045",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Polat Göktaş (P)"
+      },
+      {
+        "type": "Class",
+        "time": "2:40 pm - 3:30 pm",
+        "days": "R",
+        "location": "Fac. of Engin. and Nat. Sci. L045",
+        "dateRange": "Sep 29, 2025 - Jan 03, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Polat Göktaş (P)"
+      }
+    ]
+  },
+  {
+    "crn": "20638",
+    "code": "CS 204",
+    "section": "0",
+    "name": "Advanced Programming",
+    "term": "Spring",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "4:40 pm - 6:30 pm",
+        "days": "M",
+        "location": "Fac. of Engin. and Nat. Sci. G077",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Albert Levi (P)"
+      },
+      {
+        "type": "Class",
+        "time": "12:40 pm - 1:30 pm",
+        "days": "W",
+        "location": "Sabancı Business School G071",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Albert Levi (P)"
+      }
+    ]
+  },
+  {
+    "crn": "20196",
+    "code": "CS 300",
+    "section": "0",
+    "name": "Data Structures",
+    "term": "Spring",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "4:40 pm - 5:30 pm",
+        "days": "M",
+        "location": "Fac.of Arts and Social Sci. G062",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Saima Gül (P)"
+      },
+      {
+        "type": "Class",
+        "time": "12:40 pm - 2:30 pm",
+        "days": "T",
+        "location": "University Center G030",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Saima Gül (P)"
+      }
+    ]
+  },
+  {
+    "crn": "20216",
+    "code": "CS 302",
+    "section": "0",
+    "name": "Formal Languages and Automata Theory",
+    "term": "Spring",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "1:40 pm - 2:30 pm",
+        "days": "T",
+        "location": "Fac. of Engin. and Nat. Sci. L045",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Kemal İnan (P)"
+      },
+      {
+        "type": "Class",
+        "time": "10:40 am - 12:30 pm",
+        "days": "F",
+        "location": "Fac.of Arts and Social Sci. G018",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Kemal İnan (P)"
+      }
+    ]
+  },
+  {
+    "crn": "20218",
+    "code": "CS 303",
+    "section": "0",
+    "name": "Logic and Digital System Design",
+    "term": "Spring",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "8:40 am - 9:30 am",
+        "days": "M",
+        "location": "Sabancı Business School G071",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Ayhan Bozkurt (P)"
+      },
+      {
+        "type": "Class",
+        "time": "12:40 pm - 2:30 pm",
+        "days": "R",
+        "location": "Sabancı Business School G071",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Ayhan Bozkurt (P)"
+      }
+    ]
+  },
+  {
+    "crn": "22651",
+    "code": "CS 305",
+    "section": "0",
+    "name": "Programming Languages",
+    "term": "Spring",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "1:40 pm - 2:30 pm",
+        "days": "M",
+        "location": "University Center G030",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Hüsnü Yenigün (P)"
+      },
+      {
+        "type": "Class",
+        "time": "8:40 am - 10:30 am",
+        "days": "F",
+        "location": "University Center G030",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Hüsnü Yenigün (P)"
+      }
+    ]
+  },
+  {
+    "crn": "22654",
+    "code": "CS 403",
+    "section": "0",
+    "name": "Distributed Systems",
+    "term": "Spring",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "2:40 pm - 4:30 pm",
+        "days": "M",
+        "location": "Fac. of Engin. and Nat. Sci. G032",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Süha Orhun Mutluergil (P)"
+      },
+      {
+        "type": "Class",
+        "time": "8:40 am - 9:30 am",
+        "days": "W",
+        "location": "Fac. of Engin. and Nat. Sci. G032",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Süha Orhun Mutluergil (P)"
+      }
+    ]
+  },
+  {
+    "crn": "20247",
+    "code": "CS 407",
+    "section": "0",
+    "name": "Theory of Computation",
+    "term": "Spring",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "10:40 am - 12:30 pm",
+        "days": "T",
+        "location": "Fac.of Arts and Social Sci. 1101",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Kemal İnan (P)"
+      },
+      {
+        "type": "Class",
+        "time": "1:40 pm - 2:30 pm",
+        "days": "F",
+        "location": "Fac.of Arts and Social Sci. 1098",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Kemal İnan (P)"
+      }
+    ]
+  },
+  {
+    "crn": "21743",
+    "code": "CS 414",
+    "section": "0",
+    "name": "Network Science",
+    "term": "Spring",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "2:40 pm - 4:30 pm",
+        "days": "M",
+        "location": "Sabancı Business School G013",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Onur Varol (P)"
+      },
+      {
+        "type": "Class",
+        "time": "10:40 am - 11:30 am",
+        "days": "W",
+        "location": "Sabancı Business School G013",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Onur Varol (P)"
+      }
+    ]
+  },
+  {
+    "crn": "22656",
+    "code": "CS 432",
+    "section": "0",
+    "name": "Computer and Network Security",
+    "term": "Spring",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "2:40 pm - 3:30 pm",
+        "days": "T",
+        "location": "Fac. of Engin. and Nat. Sci. L045",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Albert Levi (P)"
+      },
+      {
+        "type": "Class",
+        "time": "4:40 pm - 6:30 pm",
+        "days": "R",
+        "location": "Fac.of Arts and Social Sci. G062",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Albert Levi (P)"
+      }
+    ]
+  },
+  {
+    "crn": "22216",
+    "code": "CS 436",
+    "section": "0",
+    "name": "Cloud Computing",
+    "term": "Spring",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "1:40 pm - 4:30 pm",
+        "days": "R",
+        "location": "Fac.of Arts and Social Sci. 1010",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Bahri Atay Özgövde (P)"
+      }
+    ]
+  },
+  {
+    "crn": "22079",
+    "code": "CS 438",
+    "section": "0",
+    "name": "Blockchain: Security and Applications",
+    "term": "Spring",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "9:40 am - 10:30 am",
+        "days": "M",
+        "location": "Fac. of Engin. and Nat. Sci. L056",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Kamer Kaya (P)"
+      },
+      {
+        "type": "Class",
+        "time": "9:40 am - 11:30 am",
+        "days": "F",
+        "location": "Fac. of Engin. and Nat. Sci. L056",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Kamer Kaya (P)"
+      }
+    ]
+  },
+  {
+    "crn": "23389",
+    "code": "CS 440",
+    "section": "0",
+    "name": "Quantum Programming II",
+    "term": "Spring",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "10:40 am - 1:30 pm",
+        "days": "F",
+        "location": "Fac.of Arts and Social Sci. 1076",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Özlem Salehi Köken (P)"
+      }
+    ]
+  },
+  {
+    "crn": "23171",
+    "code": "CS 455",
+    "section": "0",
+    "name": "Large Language Models: Theoretical Foundations and Practical Applications",
+    "term": "Spring",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "9:40 am - 10:30 am",
+        "days": "W",
+        "location": "University Center G030",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "İnanç Arın (P)"
+      },
+      {
+        "type": "Class",
+        "time": "10:40 am - 12:30 pm",
+        "days": "R",
+        "location": "Fac.of Arts and Social Sci. G062",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "1st del",
+        "instructors": "İnanç Arın (P)"
+      }
+    ]
+  },
+  {
+    "crn": "23139",
+    "code": "CS 460",
+    "section": "0",
+    "name": "Automated Debugging",
+    "term": "Spring",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "4:40 pm - 5:30 pm",
+        "days": "M",
+        "location": "Fac. of Engin. and Nat. Sci. L067",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Cemal Yılmaz (P)"
+      },
+      {
+        "type": "Class",
+        "time": "8:40 am - 10:30 am",
+        "days": "T",
+        "location": "Fac. of Engin. and Nat. Sci. L048",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Cemal Yılmaz (P)"
+      }
+    ]
+  },
+  {
+    "crn": "20252",
+    "code": "CS 412",
+    "section": "0",
+    "name": "Machine Learning",
+    "term": "Spring",
+    "meetings": [
+      {
+        "type": "Class",
+        "time": "4:40 pm - 5:30 pm",
+        "days": "M",
+        "location": "Sabancı Business School G071",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "2nd del",
+        "instructors": "Mohammad Yusaf Azimi (P)"
+      },
+      {
+        "type": "Class",
+        "time": "4:40 pm - 6:30 pm",
+        "days": "T",
+        "location": "University Center G030",
+        "dateRange": "Feb 16, 2026 - May 22, 2026",
+        "scheduleType": "1st del",
+        "instructors": "Mohammad Yusaf Azimi (P)"
+      }
+    ]
+  }
+]
