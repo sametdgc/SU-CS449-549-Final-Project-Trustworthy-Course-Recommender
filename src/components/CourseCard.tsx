@@ -1,4 +1,4 @@
-import { type EnrichedCourse } from "@/data/utils";
+import { type EnrichedCourse, minutesToTime } from "@/data/utils";
 import { 
   Card, 
   CardContent, 
@@ -9,8 +9,7 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Alert, AlertDescription } from "@/components/ui/alert";
-import { Users, Clock, CheckCircle2 } from "lucide-react";
+import { Users, Clock, CheckCircle2, GraduationCap, Calendar, AlertTriangle } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface CourseCardProps {
@@ -18,9 +17,20 @@ interface CourseCardProps {
   systemVersion: "A" | "B"; // The Experiment Variable
   onAdd: (course: EnrichedCourse) => void;
   isAdded: boolean;
+  hasConflict?: boolean;
+  conflictingCourses?: EnrichedCourse[];
+  exceedsCredits?: boolean;
 }
 
-export const CourseCard = ({ course, systemVersion, onAdd, isAdded }: CourseCardProps) => {
+export const CourseCard = ({ 
+  course, 
+  systemVersion, 
+  onAdd, 
+  isAdded, 
+  hasConflict = false,
+  conflictingCourses = [],
+  exceedsCredits = false
+}: CourseCardProps) => {
   
   // Color coding for difficulty
   const difficultyColor = {
@@ -29,8 +39,37 @@ export const CourseCard = ({ course, systemVersion, onAdd, isAdded }: CourseCard
     Hard: "bg-orange-100 text-orange-800 hover:bg-orange-200",
   };
 
+  // Format schedule times for display
+  const getScheduleDisplay = () => {
+    if (!course.timeSlots || course.timeSlots.length === 0) {
+      return "Schedule TBA";
+    }
+
+    const scheduleByDay = new Map<string, string[]>();
+    for (const slot of course.timeSlots) {
+      const timeStr = `${minutesToTime(slot.startMinutes)} - ${minutesToTime(slot.endMinutes)}`;
+      if (!scheduleByDay.has(slot.day)) {
+        scheduleByDay.set(slot.day, []);
+      }
+      scheduleByDay.get(slot.day)!.push(timeStr);
+    }
+
+    return Array.from(scheduleByDay.entries())
+      .map(([day, times]) => `${day.slice(0, 3)}: ${times.join(', ')}`)
+      .join(' | ');
+  };
+
   return (
-    <Card className={cn("w-full transition-all duration-300", isAdded ? "border-green-500 ring-1 ring-green-500 bg-green-50/10" : "hover:shadow-md")}>
+    <Card className={cn(
+      "w-full transition-all duration-300",
+      isAdded 
+        ? "border-green-500 ring-1 ring-green-500 bg-green-50/10" 
+        : exceedsCredits
+          ? "border-red-300 bg-red-50/30 opacity-60"
+          : hasConflict 
+            ? "border-amber-400 bg-amber-50/30" 
+            : "hover:shadow-md"
+    )}>
       <CardHeader className="pb-3">
         <div className="flex justify-between items-start">
           <div>
@@ -39,9 +78,18 @@ export const CourseCard = ({ course, systemVersion, onAdd, isAdded }: CourseCard
               {course.name}
             </CardDescription>
           </div>
-          <Badge variant="secondary" className={difficultyColor[course.difficulty]}>
-            {course.difficulty}
-          </Badge>
+          <div className="flex flex-col items-end gap-2">
+            <Badge variant="secondary" className={difficultyColor[course.difficulty]}>
+              {course.difficulty}
+            </Badge>
+            <Badge 
+              variant="outline" 
+              className="bg-indigo-50 text-indigo-700 border-indigo-200 font-semibold"
+            >
+              <GraduationCap className="w-3 h-3 mr-1" />
+              {course.credits} Credits
+            </Badge>
+          </div>
         </div>
         
         {/* Tags Row */}
@@ -56,19 +104,35 @@ export const CourseCard = ({ course, systemVersion, onAdd, isAdded }: CourseCard
 
       <CardContent className="space-y-4">
         {/* Logistics */}
-        <div className="grid grid-cols-2 gap-2 text-sm text-slate-500">
+        <div className="grid grid-cols-1 gap-2 text-sm text-slate-500">
           <div className="flex items-center gap-2">
-            <Users className="w-4 h-4" />
-            <span>{course.meetings[0].instructors.replace(" (P)", "")}</span>
+            <Users className="w-4 h-4 flex-shrink-0" />
+            <span>{course.meetings[0]?.instructors?.replace(" (P)", "") || "TBA"}</span>
           </div>
           <div className="flex items-center gap-2">
-            <Clock className="w-4 h-4" />
+            <Clock className="w-4 h-4 flex-shrink-0" />
             <span>~{course.workload} hrs/week</span>
+          </div>
+          <div className="flex items-start gap-2">
+            <Calendar className="w-4 h-4 flex-shrink-0 mt-0.5" />
+            <span className="text-xs leading-relaxed">{getScheduleDisplay()}</span>
           </div>
         </div>
 
-        {/* --- SYSTEM A: THE TRUST ELEMENT --- */}
-       {/* --- SYSTEM A: THE TRUST ELEMENT (Enhanced) --- */}
+        {/* Conflict Warning */}
+        {hasConflict && !isAdded && (
+          <div className="flex items-start gap-2 p-3 bg-amber-50 border border-amber-200 rounded-lg">
+            <AlertTriangle className="w-4 h-4 text-amber-600 flex-shrink-0 mt-0.5" />
+            <div className="text-xs">
+              <span className="font-medium text-amber-800">Schedule Conflict: </span>
+              <span className="text-amber-700">
+                Overlaps with {conflictingCourses.map(c => c.code).join(', ')}
+              </span>
+            </div>
+          </div>
+        )}
+
+        {/* --- SYSTEM A: THE TRUST ELEMENT (Enhanced) --- */}
         {systemVersion === "A" && (
           <div className="mt-4 relative overflow-hidden rounded-lg bg-emerald-50/50 border border-emerald-100 p-4 transition-all hover:bg-emerald-50">
             {/* Decorative accent on the left */}
@@ -99,11 +163,21 @@ export const CourseCard = ({ course, systemVersion, onAdd, isAdded }: CourseCard
       <CardFooter>
         <Button 
           onClick={() => onAdd(course)} 
-          variant={isAdded ? "secondary" : "default"}
-          className={cn("w-full", isAdded && "bg-green-600 text-white hover:bg-green-700")}
+          variant={isAdded ? "secondary" : hasConflict ? "outline" : "default"}
+          disabled={exceedsCredits && !isAdded}
+          className={cn(
+            "w-full",
+            isAdded && "bg-green-600 text-white hover:bg-green-700",
+            hasConflict && !isAdded && !exceedsCredits && "border-amber-400 text-amber-700 hover:bg-amber-50",
+            exceedsCredits && !isAdded && "bg-slate-100 text-slate-400 cursor-not-allowed"
+          )}
         >
           {isAdded ? (
             <><CheckCircle2 className="mr-2 h-4 w-4" /> Added to Plan</>
+          ) : exceedsCredits ? (
+            <><AlertTriangle className="mr-2 h-4 w-4" /> Credit Limit Reached</>
+          ) : hasConflict ? (
+            <><AlertTriangle className="mr-2 h-4 w-4" /> Add Anyway (Conflict)</>
           ) : (
             "Select Course"
           )}
